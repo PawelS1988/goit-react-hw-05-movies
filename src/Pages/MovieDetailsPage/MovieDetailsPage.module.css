@@ -1,0 +1,44 @@
+.Button {
+  box-sizing: border-box;
+
+  margin-top: 15px;
+  margin-left: 20px;
+
+  border: none;
+  cursor: pointer;
+
+  font-size: 20px;
+  text-align: left;
+
+  background-color: transparent;
+  color: #ffefefcc;
+}
+
+.Button:hover {
+  color: #ff6347;
+}
+
+.Wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.Image {
+  margin-top: 40px;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+.Title,
+.Overwiew,
+.Genres {
+  color: #000;
+}
+
+.Info {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}

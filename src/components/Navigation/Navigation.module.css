@@ -1,0 +1,22 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+
+  align-items: flex-start;
+  background-color: #fff;
+
+  box-shadow: 0 4px 2px #d3d3d3;
+}
+
+.Link {
+  margin-left: 20px;
+  margin-right: 30px;
+
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 10px;
+
+  color: #000;
+}
